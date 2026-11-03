@@ -1,0 +1,406 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Malíř Bílina – malování a nátěry</title>
+<meta name="description" content="Malování bytů, štukování omítek a nátěry fasád v Bílině a okolí. Zavolejte a domluvte si termín.">  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&amp;family=Public+Sans:wght@400;500;600&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>:root { --ink: #130E0C; --paper: #F4EEE8; --spot: #E8A33D; --spot-2: #EFC98A; --on-dark: #EFE5DC; --grad-from: #1F120E; --grad-via: #39201A; --grad-to: #552F26; --gradient: linear-gradient(126deg, #1F120E 0%, #39201A 48%, #552F26 100%); --radius: 4px; --btn-radius: 4px; --display: "Bricolage Grotesque", "Segoe UI", system-ui, sans-serif; --body: "Public Sans", "Segoe UI", system-ui, sans-serif; --tracking: -0.03em; --caps: .11em; --hw: 800; }</style>
+</head>
+<body class="motion-full">
+
+  <div class="topfix" id="header">
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="#top" class="logo" aria-label="JarYs Malíř">
+        <span class="logo__mark" aria-hidden="true">JM</span>
+        <span class="logo__text">
+          <strong>JarYs Malíř</strong>
+          <small>Malíř a natěrač</small>
+        </span>
+      </a>
+      <nav class="nav" id="nav" aria-label="Hlavní menu">
+        <a href="#services">Služby</a>
+        <a href="#about">O nás</a>
+        <a href="#work">Práce</a>
+<a href="#reviews">Hodnocení</a><a href="blog.html">Rady</a>        <a href="#contact">Kontakt</a>
+        <a href="tel:+420735267089" class="btn btn--primary nav__cta">Zavolat</a>
+      </nav>
+      <a href="tel:+420735267089" class="header__call">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"/></svg>
+        <span><small>Volejte</small>735 267 089</span>
+      </a>
+      <button class="burger" id="burger" aria-label="Otevřít menu" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+  </div>
+
+  <main id="top">
+
+    <!-- Hero -->
+    <section class="hero hero--split">
+      <picture>
+        <img class="hero__bg" src="media/hero-room.jpg" alt="Obývací pokoj čerstvě vymalovaný tmavě zelenou barvou s bílým dřevem">
+      </picture>
+      <video class="hero__bg hero__video" id="heroVideo" muted playsinline preload="none" aria-hidden="true" poster="media/video-1.jpg" data-m-mp4="media/portrait-1.mp4" data-m-webm="media/portrait-1.webm" data-m-poster="media/portrait-1.jpg">
+<source src="media/video-1.webm" type="video/webm">        <source src="media/video-1.mp4" type="video/mp4">
+      </video>
+      <div class="hero__overlay"></div>
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <span class="eyebrow eyebrow--light">Malíř a natěrač</span>
+          <h1>Čerstvě vymalované stěny bez starostí</h1>
+<p class="hero__lead">Malování bytů, kanceláří i rodinných domů, štukování a nátěry na míru. Stačí zavolat a domluvit termín.</p>          <div class="hero__ctas">
+            <a href="tel:+420735267089" class="btn btn--primary btn--lg">Zavolat
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a href="#services" class="btn btn--ghost btn--lg">Naše služby</a>
+          </div>
+          <ul class="hero__facts">
+<li><span class="stars" aria-hidden="true">★</span>5,0 na Googlu · 1 hodnocení</li><li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>Po–Pá 07:00–17:00</li>          </ul>
+        </div>
+
+        <aside class="hero__card" aria-label="Chystáte malování?">
+          <p class="hero__card-title">Chystáte malování?</p>
+          <p>Zavolejte, probereme to a domluvíme cenovou nabídku.</p>
+          <a href="tel:+420735267089" class="btn btn--primary btn--block">Zavolat</a>
+          <div class="hero__card-divider"><span>nebo volejte přímo</span></div>
+          <a href="tel:+420735267089" class="hero__card-phone">735 267 089</a>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Facts strip: only what the data says (R-02) -->
+    <section class="trust" aria-label="JarYs Malíř">
+      <div class="container trust__grid" style="--cols: 3">
+        <div class="trust__item">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l2.9 6.9L22 9.3l-5.5 4.8L18.2 21 12 17.3 5.8 21l1.7-6.9L2 9.3l7.1-.4L12 2Z"/></svg>
+          <div><strong>★ 5,0 na Googlu</strong><span>1 hodnocení</span></div>
+        </div>
+        <div class="trust__item">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+          <div><strong>Otevírací doba</strong><span>Po–Pá 07:00–17:00</span></div>
+        </div>
+        <div class="trust__item">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"/></svg>
+          <div><strong>Volejte přímo</strong><span>735 267 089</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section__head">
+          <span class="eyebrow">Co děláme</span>
+          <h2>Co malujeme</h2>
+<p>Malířské a natěračské práce v Bílině a okolí</p>        </div>
+        <div class="services services--4">
+          <article class="service reveal">
+            <div class="service__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 12-8.5 8.5a2.1 2.1 0 0 1-3-3L12 9"/><path d="M17.6 15 22 10.6"/><path d="m20.9 11.7-1.3-1.3a2 2 0 0 1-.6-1.4V7.9l-2.5-2.5a5.7 5.7 0 0 0-4-1.7H9.5l.9.8a6.2 6.2 0 0 1 2 4.5v1.5l2 2h2.1a2 2 0 0 1 1.4.6l1.2 1.2"/></svg></div>
+            <h3>Malování bytů a kanceláří</h3>
+            <p>Nátěry stěn a stropů v interiéru, včetně výběru odstínu a přípravy podkladu.</p>
+          </article>
+          <article class="service reveal">
+            <div class="service__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18l3 3 6.3-6.3a4 4 0 0 0 5.4-5.4l-2.5 2.5-2.4-.6-.6-2.4 2.5-2.5Z"/></svg></div>
+            <h3>Štukování a opravy omítek</h3>
+            <p>Oprava prasklin, děr a nerovností ve zdech před malováním.</p>
+          </article>
+          <article class="service reveal">
+            <div class="service__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22c4.6-1.6 8-6 8-11V5l-8-3-8 3v6c0 5 3.4 9.4 8 11Z"/><path d="m9 12 2 2 4-4"/></svg></div>
+            <h3>Nátěry fasád a venkovních ploch</h3>
+            <p>Ochranné a dekorativní nátěry fasád, plotů a dalších venkovních povrchů.</p>
+          </article>
+          <article class="service reveal">
+            <div class="service__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9Z"/><path d="M19 16v4M17 18h4M5 3v4M3 5h4"/></svg></div>
+            <h3>Lakování dveří, oken a radiátorů</h3>
+            <p>Obnova nátěru dřevěných a kovových prvků v domácnosti.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section section--tint" id="about">
+      <div class="container about">
+        <div class="about__media reveal">
+          <img class="about__img about__img--main" src="media/about-at-work.jpg" alt="Malíř natírá stěnu na zeleno, podlaha je zakrytá plachtami" loading="lazy">
+          <img class="about__img about__img--small" src="media/about-paint-roller-tray.jpg" alt="Váleček a vanička s barvou připravené k práci" loading="lazy">
+        </div>
+        <div class="about__content">
+          <span class="eyebrow">O nás</span>
+          <h2>Malování, které vydrží</h2>
+<p class="about__lead">Malování stěn a stropů, štukování omítek i nátěry dřeva a kovu – to vše zvládneme v jedné zakázce. Práci připravíme tak, aby byl nepořádek v bytě co nejmenší a výsledek vydržel roky.</p><p>Před malováním zakryjeme nábytek a podlahy, opravíme praskliny a díry v omítce a doladíme barevné odstíny podle přání. Na závěr uklidíme a předáme místnost hotovou k nastěhování.</p>          <div class="about__cta">
+            <a href="tel:+420735267089" class="btn btn--dark">Volejte 735 267 089</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work: the business's own photos when the export has them, otherwise the trade's illustrations -->
+    <section class="section" id="work">
+      <div class="container">
+        <div class="section__head section__head--row">
+          <div>
+            <span class="eyebrow">Práce</span>
+            <h2>Takhle můžou vypadat vaše pokoje</h2>
+          </div>
+        </div>
+        <div class="gallery">
+          <figure class="gallery__item gallery__item--wide">
+            <img src="media/gallery-coastal-living-room.jpg" alt="Světlý obývací pokoj v teplé bílé s arkýřovým oknem" loading="lazy">
+            <figcaption>Světlý obývák</figcaption>
+          </figure>
+          <figure class="gallery__item">
+            <img src="media/gallery-study.jpg" alt="Knihovna s tmavě zeleným obložením a policemi na knihy" loading="lazy">
+            <figcaption>Zelená knihovna</figcaption>
+          </figure>
+          <figure class="gallery__item">
+            <img src="media/gallery-home-office.jpg" alt="Pracovna v tmavě petrolejové barvě s vestavěnými policemi" loading="lazy">
+            <figcaption>Petrolejová pracovna</figcaption>
+          </figure>
+          <figure class="gallery__item">
+            <img src="media/gallery-dressing-room.jpg" alt="Šatna se světle růžovými stěnami a vestavěnými skříněmi" loading="lazy">
+            <figcaption>Světle růžová šatna</figcaption>
+          </figure>
+          <figure class="gallery__item gallery__item--wide">
+            <img src="media/gallery-kitchen-extension.jpg" alt="Kuchyň s tmavě natřenými skříňkami a velkými okny" loading="lazy">
+            <figcaption>Kuchyň s tmavou linkou</figcaption>
+          </figure>
+          <figure class="gallery__item">
+            <img src="media/gallery-green-bathroom.jpg" alt="Koupelna s tmavě zelenými stěnami a obložením" loading="lazy">
+            <figcaption>Zelená koupelna</figcaption>
+          </figure>
+          <figure class="gallery__item">
+            <img src="media/gallery-sage-living-room.jpg" alt="Obývací pokoj v šalvějově zelené s bílým krbem" loading="lazy">
+            <figcaption>Obývák v šalvějové zelené</figcaption>
+          </figure>
+          <figure class="gallery__item">
+            <img src="media/gallery-guest-bedroom.jpg" alt="Podkrovní ložnice ve světle levandulové barvě" loading="lazy">
+            <figcaption>Levandulová ložnice v podkroví</figcaption>
+          </figure>
+          <figure class="gallery__item gallery__item--wide">
+            <img src="media/gallery-barn-bedroom.jpg" alt="Ložnice v teplé bílé pod dřevěnými trámy" loading="lazy">
+            <figcaption>Ložnice pod trámy</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Before / after: drag the handle to compare -->
+    <section class="section section--tint" id="before-after">
+      <div class="container">
+        <div class="section__head section__head--row">
+          <div>
+            <span class="eyebrow">Proměny</span>
+            <h2>Před a po</h2>
+          </div>
+        </div>
+        <div class="ba-row">
+          <figure class="ba" style="flex: 1.792 1 0">
+            <div class="ba__stage" style="aspect-ratio: 1376 / 768">
+              <img src="media/ba-living-after.jpg" alt="Obývací pokoj, po" loading="lazy">
+              <div class="ba__before"><img src="media/ba-living-before.jpg" alt="Obývací pokoj, před" loading="lazy"></div>
+              <span class="ba__tag ba__tag--before">Před</span>
+              <span class="ba__tag ba__tag--after">Po</span>
+              <span class="ba__handle" aria-hidden="true"><span><svg viewBox="0 0 24 24"><path d="m9 6-6 6 6 6M15 6l6 6-6 6"/></svg></span></span>
+              <input class="ba__range" type="range" min="0" max="100" value="50" aria-label="Posuňte jezdec a porovnejte: Obývací pokoj">
+            </div>
+            <figcaption>Obývák: z unavené krémové do sytě šalvějové</figcaption>
+          </figure>
+          <figure class="ba" style="flex: 0.747 1 0">
+            <div class="ba__stage" style="aspect-ratio: 896 / 1200">
+              <img src="media/ba-stairs-after.jpg" alt="Chodba se schodištěm, po" loading="lazy">
+              <div class="ba__before"><img src="media/ba-stairs-before.jpg" alt="Chodba se schodištěm, před" loading="lazy"></div>
+              <span class="ba__tag ba__tag--before">Před</span>
+              <span class="ba__tag ba__tag--after">Po</span>
+              <span class="ba__handle" aria-hidden="true"><span><svg viewBox="0 0 24 24"><path d="m9 6-6 6 6 6M15 6l6 6-6 6"/></svg></span></span>
+              <input class="ba__range" type="range" min="0" max="100" value="50" aria-label="Posuňte jezdec a porovnejte: Chodba se schodištěm">
+            </div>
+            <figcaption>Chodba se schodištěm: tmavě modré stěny, bílé zábradlí, černé vchodové dveře</figcaption>
+          </figure>
+        </div>
+        <p class="ba-hint">Posuňte jezdec a porovnejte</p>
+      </div>
+    </section>
+
+    <!-- Reviews: verbatim from the Maps listing, never written by us -->
+    <section class="section section--tint" id="reviews">
+      <div class="container">
+        <div class="section__head">
+          <span class="eyebrow">Hodnocení</span>
+          <h2>Co říkají zákazníci</h2>
+        </div>
+        <div class="reviews__summary">
+          <strong>5,0</strong>
+          <span class="stars" aria-hidden="true">★★★★★</span>
+<span>z 1 hodnocení na Google</span>        </div>
+        <div class="reviews">
+          <figure class="review reveal">
+<span class="stars" aria-label="5 / 5">★★★★★</span>            <blockquote>Spolehlivě, peličlivost a preciznost. Doporučuji všem kteří znam i neznam.</blockquote>
+            <footer><strong>Romana Maryšková</strong>hodnocení na Google · před 3 dny</footer>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Process -->
+    <section class="section section--dark" id="process">
+      <div class="container">
+        <div class="section__head">
+          <span class="eyebrow eyebrow--light">Jak to probíhá</span>
+          <h2>Od prvního telefonu po vymalovaný pokoj</h2>
+        </div>
+        <ol class="steps">
+          <li class="step reveal">
+            <span class="step__num">01</span>
+            <h3>Ozvete se</h3>
+            <p>Zavoláte nebo napíšete, o jaké místnosti jde, v jakém jsou stavu a co byste chtěli.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__num">02</span>
+            <h3>Obhlídka a nabídka</h3>
+            <p>Práci si prohlédneme a naceníme tak, abyste předem věděli, co je v ceně a co ne.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__num">03</span>
+            <h3>Příprava a malování</h3>
+            <p>Zakryjeme podlahy a nábytek, opravíme a přebrousíme povrchy a teprve potom jdou na řadu nátěry.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__num">04</span>
+            <h3>Hotovo a uklizeno</h3>
+            <p>Sbalíme fólie, uklidíme a na konci si spolu práci projdeme.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- CTA band -->
+    <section class="cta-band">
+      <div class="container cta-band__inner">
+        <div>
+          <h2>Potřebujete vymalovat?</h2>
+<p>Zavolejte a domluvte si termín malování nebo natírání.</p>        </div>
+        <div class="cta-band__actions">
+          <a href="tel:+420735267089" class="btn btn--dark btn--lg">Volejte 735 267 089</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact: the form is on every site; until it is connected it sends nothing -->
+    <section class="section" id="contact">
+      <div class="container booking">
+        <div class="booking__form-wrap">
+          <span class="eyebrow">Nezávazná poptávka</span>
+          <h2>Kontakt</h2>
+          <p class="form__wire"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9Z"/><path d="M19 16v4M17 18h4M5 3v4M3 5h4"/></svg><span><b>Nezávazná poptávka.</b> Vyplněný formulář odešleme na e-mail jajicek.855@seznam.cz. Při prvním odeslání bude potřeba potvrdit aktivační e-mail od služby FormSubmit.</span></p>
+          <form class="form" id="quoteForm" action="https://formsubmit.co/jajicek.855@seznam.cz" method="POST" novalidate data-msg-invalid="Vyplňte prosím zvýrazněná pole."><input type="hidden" name="_subject" value="Nová poptávka z webu JarYs"><input type="hidden" name="_template" value="table">
+            <div class="form__row">
+              <label class="field"><span>Jméno a příjmení *</span><input type="text" name="name" autocomplete="name" required></label>
+              <label class="field"><span>Telefon *</span><input type="tel" name="phone" autocomplete="tel" required></label>
+            </div>
+            <div class="form__row">
+              <label class="field"><span>PSČ</span><input type="text" name="postcode" autocomplete="postal-code" placeholder="např. 602 00"></label>
+              <label class="field"><span>O jakou práci jde *</span>
+                <select name="service" required>
+                  <option value="">Vyberte službu…</option>
+<option>Malování bytů a kanceláří</option><option>Štukování a opravy omítek</option><option>Nátěry fasád a venkovních ploch</option><option>Lakování dveří, oken a radiátorů</option>                  <option>Něco jiného / nevím</option>
+                </select>
+              </label>
+            </div>
+            <label class="field"><span>Popis práce *</span><textarea name="message" rows="5" required placeholder="Které místnosti, přibližná velikost, stav stěn, jaké barvy si představujete…"></textarea></label>
+            <button type="submit" class="btn btn--primary btn--lg btn--block">Odeslat poptávku <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+            <div class="form__status" id="formStatus" role="status" aria-live="polite"></div>
+<p class="form__privacy">Údaje z formuláře použijeme jen k vyřízení vaší poptávky. Více v zásadách <a href="privacy.html">ochrana osobních údajů</a>.</p>          </form>
+        </div>
+
+        <div class="booking__side">
+          <aside class="contact">
+            <h3>Kontakt</h3>
+            <a class="contact__item" href="tel:+420735267089">
+              <span class="contact__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"/></svg></span>
+              <span><small>Telefon</small><strong>735 267 089</strong></span>
+            </a>
+            <div class="contact__item">
+              <span class="contact__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12Z"/><circle cx="12" cy="10" r="2.5"/></svg></span>
+              <span><small>Adresa</small><strong>Sídl. za Chlumem 780, 418 01 Bílina 1</strong></span>
+            </div>
+          </aside>
+                  <div class="hours">
+          <h3>Otevírací doba</h3>
+          <table>
+            <tr data-day="mon"><td>Pondělí</td><td>07:00–17:00</td></tr>
+            <tr data-day="tue"><td>Úterý</td><td>07:00–17:00</td></tr>
+            <tr data-day="wed"><td>Středa</td><td>07:00–17:00</td></tr>
+            <tr data-day="thu"><td>Čtvrtek</td><td>07:00–17:00</td></tr>
+            <tr data-day="fri"><td>Pátek</td><td>07:00–17:00</td></tr>
+            <tr data-day="sat"><td>Sobota</td><td>Zavřeno</td></tr>
+            <tr data-day="sun"><td>Neděle</td><td>Zavřeno</td></tr>
+          </table>
+        </div>
+
+        </div>
+      </div>
+    </section>
+
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div>
+        <a href="#top" class="logo">
+          <span class="logo__mark" aria-hidden="true">JM</span>
+          <span class="logo__text"><strong>JarYs Malíř</strong><small>Malíř a natěrač</small></span>
+        </a>
+<p class="footer__about">Malířské a natěračské práce v Bílině a okolí</p>      </div>
+      <div>
+        <h4>Služby</h4>
+        <ul><li><a href="#services">Malování bytů a kanceláří</a></li><li><a href="#services">Štukování a opravy omítek</a></li><li><a href="#services">Nátěry fasád a venkovních ploch</a></li><li><a href="#services">Lakování dveří, oken a radiátorů</a></li></ul>
+      </div>
+      <div>
+        <h4>Kontakt</h4>
+        <ul>
+          <li><a href="tel:+420735267089">735 267 089</a></li>
+<li>Sídl. za Chlumem 780, 418 01 Bílina 1</li>        </ul>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <span>&copy; 2026 JarYs Malíř</span>
+      <nav class="footer__legal" aria-label="Právní informace">
+<a href="blog.html">Rady</a>        <a href="terms.html">Obchodní podmínky</a>
+        <a href="privacy.html">Ochrana osobních údajů</a>
+        <a href="cookies.html">Cookies</a>
+        <a class="footer__credit" href="https://web.clientee.co/free?utm_source=site-credit&amp;utm_medium=referral" target="_blank" rel="noopener">Web vytvořil Clientee</a>
+      </nav>
+    </div>
+  </footer>
+
+  <!-- Mobile sticky actions -->
+  <div class="mobile-bar">
+    <a href="tel:+420735267089" class="mobile-bar__call"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"/></svg> Zavolat</a>
+<a href="#contact" class="mobile-bar__offer">Kontakt</a>  </div>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox__close" id="lbClose" aria-label="Zavřít">&times;</button>
+    <button class="lightbox__nav lightbox__nav--prev" id="lbPrev" aria-label="Předchozí">&#8249;</button>
+    <figure>
+      <img id="lbImg" src="" alt="">
+      <figcaption id="lbCap"></figcaption>
+    </figure>
+    <button class="lightbox__nav lightbox__nav--next" id="lbNext" aria-label="Další">&#8250;</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
